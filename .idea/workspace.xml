@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4adce26c-ee14-4ef3-bff8-a613c34007d5" name="Changes" comment="feat: Agregar feature &#10;&#10;Se han implementado las clases necesarias de configuraciòn de environments y para dar la habilidad al actor de poder llamar a una api.&#10;&#10;Detalles:&#10;- Se ha creado una clase tipo Cast para configurar y darle habilidades al actor.&#10;- Se ha creado una clase TestEnviroments para para acceder a las propiedades del entorno las llamadas a la API.&#10;- Se ha creado la clease Hook para indicar la accion que se debe realizar antes de ejecutar los escenarios de prueba.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/helpers/TestEnvironments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/consultarUsuarios/ConsultarUsuarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/consultarUsuarios/ConsultarUsuariosRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/consultarUsuarios/ConsultarUsuariosStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/consultarUsuarios/consultarUsuarios.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="4adce26c-ee14-4ef3-bff8-a613c34007d5" name="Changes" comment="feat: Agregar feature consultarUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature consultarUsuarios y el escenario de prueba @ConsultarUsuarios.&#10;&#10;Detalles:&#10;- Se modifica la clase TestEnviroments y se eliminan las clases Hooks y ApiCast dado que generaban conflictos en la implementacion.&#10;- Se crea el archivo serenity.conf para configurar las variables de entorno y caracterisiticas generales del reporte&#10;- Se ha creado la feature consultarUsuarios con un escenario de prueba inicial&#10;- Se han creado la clase stepDefinition, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay&#10;- Se configura el archivo .gitignore para evitar subir al repositorio archivos innecesarios">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/consultarUsuarios/ConsultarUsuarioId.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/helpers/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/helpers/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/actors/ApiCast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setup/enviroment/TestEnvironments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/usuarios/consultarUsuarios/ConsultarUsuariosRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/consultarUsuarios/ConsultarUsuariosRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/consultarUsuarios/ConsultarUsuariosStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/consultarUsuarios/ConsultarUsuariosStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/usuarios/consultarUsuarios/consultarUsuarios.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/consultarUsuarios/consultarUsuarios.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,21 +50,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USUARIO\Documents\Automatización\Gestionar_Empleados_F2X\src\test\resources\features\usuarios\consultarUsuarios" />
       <recent name="C:\Users\USUARIO\Documents\Automatización\Gestionar_Empleados_F2X\src\test\resources" />
       <recent name="C:\Users\USUARIO\Documents\Automatización\Gestionar_Empleados_F2X\src\test\resources\features\usuarios" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gestionar.empleados.f2x.tasks.usuarios.consultarUsuarios" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.ConsultarUsuariosRunner">
+  <component name="RunManager" selected="Gradle.ConsultarUsuariosRunner (1)">
     <configuration name="Scenario: Consultar lista de usuarios registrados" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/usuarios/consultarUsuarios/consultarUsuarios.feature" />
@@ -91,6 +88,29 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="ConsultarUsuariosRunner (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;runners.usuarios.consultarUsuarios.ConsultarUsuariosRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="ConsultarUsuariosRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -163,6 +183,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ConsultarUsuariosRunner (1)" />
         <item itemvalue="Gradle.ConsultarUsuariosRunner" />
         <item itemvalue="Cucumber Java.Scenario: Consultar lista de usuarios registrados" />
         <item itemvalue="Gradle.GestionarUsuariosRunner" />
@@ -186,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711245173324</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Agregar feature consultarUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature consultarUsuarios y el escenario de prueba @ConsultarUsuarios.&#10;&#10;Detalles:&#10;- Se modifica la clase TestEnviroments y se eliminan las clases Hooks y ApiCast dado que generaban conflictos en la implementacion.&#10;- Se crea el archivo serenity.conf para configurar las variables de entorno y caracterisiticas generales del reporte&#10;- Se ha creado la feature consultarUsuarios con un escenario de prueba inicial&#10;- Se han creado la clase stepDefinition, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay&#10;- Se configura el archivo .gitignore para evitar subir al repositorio archivos innecesarios">
+      <created>1711308292455</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711308292455</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +231,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit: Se realiza la configuracion basica del proyecto, teniendo en cuenta: &#10;&#10;- Se realiza la creacion de los directorios principales del proyecto&#10;- Se agrega la configuracion inicial de dependencias requeridas del proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit: Se realiza la configuracion basica del proyecto, teniendo en cuenta: &#10;&#10;- Se realiza la creacion de los directorios principales del proyecto&#10;- Se agrega la configuracion inicial de dependencias requeridas del proyecto" />
+    <MESSAGE value="feat: Agregar feature consultarUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature consultarUsuarios y el escenario de prueba @ConsultarUsuarios.&#10;&#10;Detalles:&#10;- Se modifica la clase TestEnviroments y se eliminan las clases Hooks y ApiCast dado que generaban conflictos en la implementacion.&#10;- Se crea el archivo serenity.conf para configurar las variables de entorno y caracterisiticas generales del reporte&#10;- Se ha creado la feature consultarUsuarios con un escenario de prueba inicial&#10;- Se han creado la clase stepDefinition, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay&#10;- Se configura el archivo .gitignore para evitar subir al repositorio archivos innecesarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Agregar feature consultarUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature consultarUsuarios y el escenario de prueba @ConsultarUsuarios.&#10;&#10;Detalles:&#10;- Se modifica la clase TestEnviroments y se eliminan las clases Hooks y ApiCast dado que generaban conflictos en la implementacion.&#10;- Se crea el archivo serenity.conf para configurar las variables de entorno y caracterisiticas generales del reporte&#10;- Se ha creado la feature consultarUsuarios con un escenario de prueba inicial&#10;- Se han creado la clase stepDefinition, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay&#10;- Se configura el archivo .gitignore para evitar subir al repositorio archivos innecesarios" />
   </component>
 </project>

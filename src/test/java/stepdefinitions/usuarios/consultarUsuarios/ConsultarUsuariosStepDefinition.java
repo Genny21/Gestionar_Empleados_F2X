@@ -1,6 +1,7 @@
 package stepdefinitions.usuarios.consultarUsuarios;
 
-import com.gestionar.empleados.f2x.questions.ValidarStatus;
+import com.gestionar.empleados.f2x.questions.ValidarStatusCorrecto;
+import com.gestionar.empleados.f2x.tasks.usuarios.consultarUsuarios.ConsultarUsuarioId;
 import com.gestionar.empleados.f2x.tasks.usuarios.consultarUsuarios.ConsultarUsuarios;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -39,9 +40,22 @@ public class ConsultarUsuariosStepDefinition {
     public void seResponderaExitosamenteConLosResultadosEsperados() {
         theActorInTheSpotlight()
                 .asksFor(
-                        ValidarStatus.validar()
+                        ValidarStatusCorrecto.validar()
                 );
 
     }
+
+    @When("Realiza la busqueda del usuario con {int}")
+    public void realizaLaBusquedaDelUsuarioCon(Integer id) {
+
+        theActorInTheSpotlight()
+                .attemptsTo(
+                        ConsultarUsuarioId.withId(id)
+                );
+    }
+
+
+
+
 
 }

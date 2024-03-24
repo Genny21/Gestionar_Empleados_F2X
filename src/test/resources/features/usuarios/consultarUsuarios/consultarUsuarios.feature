@@ -24,5 +24,19 @@ Background: Acceder al servicio principal
 @CP-001
 Scenario: Consultar lista de usuarios registrados
 
-When  Realiza la busqueda de la lista de usuarios
-Then Se respondera exitosamente con los resultados esperados
+  When  Realiza la busqueda de la lista de usuarios
+  Then Se respondera exitosamente con los resultados esperados
+
+@HP
+@ConsultarUsuario
+@CP-002
+Scenario Outline: Consultar un usuario registrado especifico
+
+   When  Realiza la busqueda del usuario con <id>
+   Then Se respondera exitosamente con los resultados esperados
+
+  Examples:
+    | id |
+    | 2  |
+    | 4  |
+    | 6  |

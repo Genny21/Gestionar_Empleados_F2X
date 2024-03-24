@@ -6,12 +6,11 @@ import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.rest.interactions.Ensure;
 import org.apache.http.HttpStatus;
 
-import static com.gestionar.empleados.f2x.helpers.Constants.MSJ_VALIDACION_CODIGO;
 
-public class ValidarStatus implements Question<Boolean> {
+public class ValidarStatusCorrecto implements Question<Boolean> {
 
-    public static ValidarStatus validar(){
-        return new ValidarStatus();
+    public static ValidarStatusCorrecto validar(){
+        return new ValidarStatusCorrecto();
     }
 
     @Override
