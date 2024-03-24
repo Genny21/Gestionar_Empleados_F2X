@@ -1,0 +1,33 @@
+package actors;
+
+import com.gestionar.empleados.f2x.helpers.Constants;
+import net.serenitybdd.screenplay.Ability;
+import net.serenitybdd.screenplay.Actor;
+import net.serenitybdd.screenplay.actors.Cast;
+import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
+import net.thucydides.core.util.EnvironmentVariables;
+import setup.enviroment.TestEnvironments;
+
+public class ApiCast extends Cast {
+
+    private final TestEnvironments testEnvironments;
+
+    public ApiCast(EnvironmentVariables environmentVariables) {
+        this.testEnvironments = new TestEnvironments(environmentVariables);
+    }
+
+    @Override
+    public Actor actorNamed(String actorName, Ability... abilities) {
+        Actor theActor = super.actorNamed(actorName)
+                               .describedAs("Usuario que ha obtenido los privilegios para pruebas de API");
+        theActor.remember(Constants.BASE_URL, testEnvironments.getBaseUrl());
+        theActor.remember(Constants.USERS, testEnvironments.getPathUsers());
+
+        for (Ability ability : abilities) {
+            if (ability instanceof CallAnApi) {
+                theActor.can((CallAnApi) ability);
+            }
+        }
+        return theActor;
+    }
+}
