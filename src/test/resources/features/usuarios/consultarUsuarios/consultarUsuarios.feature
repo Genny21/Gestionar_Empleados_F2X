@@ -10,7 +10,7 @@
 Feature: Consultar usuarios
 Yo como usuario administrador de la plataforma ReqRes
 Quiero poder ejecutar los servicios de busqueda de usuarios de la plataforma
-Para la identificacion y uso dentro en las funcionalidades de la plataforma
+Para la identificacion y validar el uso de las funcionalidades de la plataforma
 
 # @HP               # Etiqueta para el Tipo de prueba [Happy Path]
 # @SP               # Etiqueta para el Tipo de prueba [Sad Path]
