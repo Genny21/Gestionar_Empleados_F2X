@@ -1,5 +1,6 @@
 package stepdefinitions.usuarios.consultarUsuarios;
 
+import com.gestionar.empleados.f2x.questions.ValidarInfomacionExiste;
 import com.gestionar.empleados.f2x.questions.ValidarStatusCorrecto;
 import com.gestionar.empleados.f2x.tasks.usuarios.consultarUsuarios.ConsultarUsuarioId;
 import com.gestionar.empleados.f2x.tasks.usuarios.consultarUsuarios.ConsultarUsuarios;
@@ -54,6 +55,14 @@ public class ConsultarUsuariosStepDefinition {
                 );
     }
 
+    @Then("Se presentara la informacion del usuario correspondiente")
+    public void sePresentaraLaInformacionDelUsuarioCorrespondiente() {
+        theActorInTheSpotlight()
+                .asksFor(
+                        ValidarInfomacionExiste.validarDataExsite()
+                );
+
+    }
 
 
 

@@ -8,4 +8,6 @@ public class Constants {
 
     public static final String USER = "path.user";
     public static final String MSJ_VALIDACION_CODIGO = "La respuesta obtenida es exitosa";
+
+    public static final String MSJ_VALIDACION_DATA_EXISTE = "Se ha retornado informacion para el usuario exitosamente";
 }

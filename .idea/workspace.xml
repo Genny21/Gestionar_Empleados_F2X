@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4adce26c-ee14-4ef3-bff8-a613c34007d5" name="Changes" comment="feat: Agregar feature consultarUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature consultarUsuarios y el escenario de prueba @ConsultarUsuarios.&#10;&#10;Detalles:&#10;- Se modifica la clase TestEnviroments y se eliminan las clases Hooks y ApiCast dado que generaban conflictos en la implementacion.&#10;- Se crea el archivo serenity.conf para configurar las variables de entorno y caracterisiticas generales del reporte&#10;- Se ha creado la feature consultarUsuarios con un escenario de prueba inicial&#10;- Se han creado la clase stepDefinition, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay&#10;- Se configura el archivo .gitignore para evitar subir al repositorio archivos innecesarios">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/consultarUsuarios/ConsultarUsuarioId.java" afterDir="false" />
+    <list default="true" id="4adce26c-ee14-4ef3-bff8-a613c34007d5" name="Changes" comment="feat: Agregar escenario de prueba consultarUsuario&#10;&#10;Se han implementado las clases necesarias para la implementacion del escenario de prueba @ConsultarUsuario.&#10;&#10;Detalles:&#10;- Se ha modificaro la feature consultarUsuarios agregando un escenario de prueba para la consulta de usuario especifico&#10;- Se han modificado la clase stepDefinition, y se ha creado una nueva task  con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarInfomacionExiste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarStatusNoExiste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/helpers/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/helpers/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/usuarios/consultarUsuarios/ConsultarUsuariosRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/consultarUsuarios/ConsultarUsuariosRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/consultarUsuarios/ConsultarUsuariosStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/consultarUsuarios/ConsultarUsuariosStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/usuarios/consultarUsuarios/consultarUsuarios.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/consultarUsuarios/consultarUsuarios.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,7 @@
       <recent name="C:\Users\USUARIO\Documents\Automatización\Gestionar_Empleados_F2X\src\test\resources\features\usuarios" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gestionar.empleados.f2x.questions" />
       <recent name="com.gestionar.empleados.f2x.tasks.usuarios.consultarUsuarios" />
     </key>
   </component>
@@ -214,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711308292455</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: Agregar escenario de prueba consultarUsuario&#10;&#10;Se han implementado las clases necesarias para la implementacion del escenario de prueba @ConsultarUsuario.&#10;&#10;Detalles:&#10;- Se ha modificaro la feature consultarUsuarios agregando un escenario de prueba para la consulta de usuario especifico&#10;- Se han modificado la clase stepDefinition, y se ha creado una nueva task  con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay">
+      <created>1711311436021</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711311436021</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +239,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit: Se realiza la configuracion basica del proyecto, teniendo en cuenta: &#10;&#10;- Se realiza la creacion de los directorios principales del proyecto&#10;- Se agrega la configuracion inicial de dependencias requeridas del proyecto" />
     <MESSAGE value="feat: Agregar feature consultarUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature consultarUsuarios y el escenario de prueba @ConsultarUsuarios.&#10;&#10;Detalles:&#10;- Se modifica la clase TestEnviroments y se eliminan las clases Hooks y ApiCast dado que generaban conflictos en la implementacion.&#10;- Se crea el archivo serenity.conf para configurar las variables de entorno y caracterisiticas generales del reporte&#10;- Se ha creado la feature consultarUsuarios con un escenario de prueba inicial&#10;- Se han creado la clase stepDefinition, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay&#10;- Se configura el archivo .gitignore para evitar subir al repositorio archivos innecesarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Agregar feature consultarUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature consultarUsuarios y el escenario de prueba @ConsultarUsuarios.&#10;&#10;Detalles:&#10;- Se modifica la clase TestEnviroments y se eliminan las clases Hooks y ApiCast dado que generaban conflictos en la implementacion.&#10;- Se crea el archivo serenity.conf para configurar las variables de entorno y caracterisiticas generales del reporte&#10;- Se ha creado la feature consultarUsuarios con un escenario de prueba inicial&#10;- Se han creado la clase stepDefinition, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay&#10;- Se configura el archivo .gitignore para evitar subir al repositorio archivos innecesarios" />
+    <MESSAGE value="feat: Agregar escenario de prueba consultarUsuario&#10;&#10;Se han implementado las clases necesarias para la implementacion del escenario de prueba @ConsultarUsuario.&#10;&#10;Detalles:&#10;- Se ha modificaro la feature consultarUsuarios agregando un escenario de prueba para la consulta de usuario especifico&#10;- Se han modificado la clase stepDefinition, y se ha creado una nueva task  con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Agregar escenario de prueba consultarUsuario&#10;&#10;Se han implementado las clases necesarias para la implementacion del escenario de prueba @ConsultarUsuario.&#10;&#10;Detalles:&#10;- Se ha modificaro la feature consultarUsuarios agregando un escenario de prueba para la consulta de usuario especifico&#10;- Se han modificado la clase stepDefinition, y se ha creado una nueva task  con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay" />
   </component>
 </project>
