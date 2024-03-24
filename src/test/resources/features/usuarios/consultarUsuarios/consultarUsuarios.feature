@@ -5,7 +5,7 @@
 # @{Funcionalidad}  # Palabra clave representativa de la funcionalidad
 
 @Todos
-@Usuarios
+@ConsultarUsuarios
 
 Feature: Consultar usuarios
 Yo como usuario administrador de la plataforma ReqRes
@@ -21,7 +21,7 @@ Background: Acceder al servicio principal
 
 
 @HP
-@ConsultarUsuarios
+@ConsultarListaUsuarios
 @CP-001
 Scenario: Consultar lista de usuarios registrados
 

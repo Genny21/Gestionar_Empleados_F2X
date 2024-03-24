@@ -2,6 +2,7 @@ package stepdefinitions.usuarios.consultarUsuarios;
 
 import com.gestionar.empleados.f2x.questions.ValidarInfomacionExiste;
 import com.gestionar.empleados.f2x.questions.ValidarStatusCorrecto;
+import com.gestionar.empleados.f2x.questions.ValidarStatusNoExiste;
 import com.gestionar.empleados.f2x.tasks.usuarios.consultarUsuarios.ConsultarUsuarioId;
 import com.gestionar.empleados.f2x.tasks.usuarios.consultarUsuarios.ConsultarUsuarios;
 import io.cucumber.java.en.Given;
@@ -64,7 +65,13 @@ public class ConsultarUsuariosStepDefinition {
 
     }
 
-
+    @Then("Se respondera exitosamente indicando que el usuario no fue encontrado")
+    public void seResponderaExitosamenteIndicandoQueElUsuarioNoFueEncontrado() {
+        theActorInTheSpotlight()
+                .asksFor(
+                        ValidarStatusNoExiste.validar()
+                );
+    }
 
 
 }

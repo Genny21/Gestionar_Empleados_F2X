@@ -18,7 +18,7 @@ public class ValidarStatusNoExiste implements Question<Boolean> {
 
         actor.attemptsTo(
                 Ensure.that(Constants.MSJ_VALIDACION_CODIGO, validatableResponse -> validatableResponse
-                        .statusCode(HttpStatus.SC_OK))
+                        .statusCode(HttpStatus.SC_NOT_FOUND))
         );
         return true;
     }
