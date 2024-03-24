@@ -4,5 +4,7 @@ public class Constants {
 
     public static final String BASE_URL = "https://reqres.in/api";
 
-    public static final String USERS = "users";
+    public static final String USERS = "path.users";
+
+    public static final String MSJ_VALIDACION_CODIGO = "La respuesta obtenida es exitosa";
 }
