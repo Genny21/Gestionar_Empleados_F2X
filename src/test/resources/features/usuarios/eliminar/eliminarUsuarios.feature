@@ -5,12 +5,12 @@
 # @{Funcionalidad}  # Palabra clave representativa de la funcionalidad
 
 @Todos
-@ActualizarUsuarios
+@EliminarUsuarios
 
 Feature: Actualizar usuarios
 Yo como usuario administrador de la plataforma ReqRes
-Quiero poder actualizar los usuarios de la plataforma
-Para mantener la informacion actualizada en la plataforma
+Quiero poder eliminar los usuarios de la plataforma
+Para mantener el privilegio de la informacion en la plataforma
 
 # @HP               # Etiqueta para el Tipo de prueba [Happy Path]
 # @SP               # Etiqueta para el Tipo de prueba [Sad Path]
@@ -21,13 +21,12 @@ Background: Acceder al servicio principal
 
 
 @HP
-@ActualizarUsuario
-@CP-007
-Scenario Outline: Actualizar un usuario registrado especifico
+@EliminarUsuario
+@CP-008
+Scenario Outline: Eliminar un usuario registrado especifico
 
-   When  Realiza la actualizacion del usuario con <id>
-   Then Se respondera exitosamente con los resultados esperados
-   And Se confirmara la actualizacion exitosa
+   When  Realiza la eliminacion del usuario con <id>
+   Then Se respondera exitosamente con la confirmacion correspondiente
   Examples:
     | id |
     | 1  |
