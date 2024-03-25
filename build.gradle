@@ -28,6 +28,7 @@ dependencies {
 
     testImplementation group: 'junit', name: 'junit', version: '4.13.2'
     implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.7'
+    // https://mvnrepository.com/artifact/net.serenity-bdd/serenity-core
     implementation group: 'net.serenity-bdd', name: 'serenity-core', version: '3.2.5'
     // https://mvnrepository.com/artifact/net.serenity-bdd/serenity-junit
     implementation group: 'net.serenity-bdd', name: 'serenity-junit', version: '3.2.5'

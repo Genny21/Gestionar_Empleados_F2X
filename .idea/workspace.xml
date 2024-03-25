@@ -4,7 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4adce26c-ee14-4ef3-bff8-a613c34007d5" name="Changes" comment="Delete: Se elimina carpeta no utilizada" />
+    <list default="true" id="4adce26c-ee14-4ef3-bff8-a613c34007d5" name="Changes" comment="Merge: Creando merge desde repositorio local a remoto">
+      <change afterPath="$PROJECT_DIR$/conclusiones.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/helpers/TestEnvironments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/models/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarActualizacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarInfomacionExiste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarStatusBad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarStatusCorrecto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarStatusCorrectoCrear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarStatusCorrectoEliminar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarStatusNoExiste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarUsuarioCreado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/actualizar/ActualizarUsuarioId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/consultar/ConsultarUsuarioId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/consultar/ConsultarUsuarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/crear/CrearUsuarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/eliminar/EliminarUsuarioId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/GeneralRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/actualizar/ActualizarUsuariosRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/consultar/ConsultarUsuariosRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/crear/CrearUsuariosRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/eliminar/EliminarUsuariosRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/actualizar/ActualizarUsuariosStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/consultar/ConsultarUsuariosStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/crear/CrearUsuariosStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/eliminar/EliminarUsuariosStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/actualizar/actualizarUsuarios.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/consultar/consultarUsuarios.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/crear/crearUsuarios.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/eliminar/eliminarUsuarios.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/helpers/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/helpers/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/actors/ApiCast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setup/enviroment/TestEnvironments.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,15 +90,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "C:/Users/USUARIO/Documents/Automatización/Gestionar_Empleados_F2X/src/test/resources/features/usuarios/eliminar",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USUARIO/Documents/Automatización/Gestionar_Empleados_F2X/src/test/resources/features/usuarios/eliminar&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USUARIO\Documents\Automatización\Gestionar_Empleados_F2X\src\test\resources\features\usuarios\eliminar" />
@@ -301,7 +339,7 @@
       <option name="project" value="LOCAL" />
       <updated>1711340701312</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,6 +366,15 @@
     <MESSAGE value="feat: Agregar feature eliminarUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature eliminarUsuarios y el escenario de prueba @EliminarUsuario.&#10;&#10;Detalles:&#10;&#10;- Se ha creado la feature eliminarUsuarios con un escenario de prueba&#10;- Se han creado la clase stepDefinition, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay y el patron builder" />
     <MESSAGE value="feat: Modificar feature crearUsuarios, agregar conclusiones y Runner General&#10;&#10;Se han modificado las clases necesarias para la implementacion de un nuevo escenario de prueba @CrearUsuarioExistente.&#10;&#10;Detalles:&#10;&#10;- Se ha modificado la feature crearUsuarios y se agrega un nuevo escenario de prueba&#10;- Se agrega el Runner general para poder ejecutar todos los escenarios de prueba&#10;- Se agrega el archivo de conclusiones acerca de la construccion del proyecto" />
     <MESSAGE value="Delete: Se elimina carpeta no utilizada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete: Se elimina carpeta no utilizada" />
+    <MESSAGE value="feat: Agregar feature consultarUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature consultarUsuarios y el escenario de prueba @ConsultarUsuarios.&#10;&#10;Detalles:&#10;- Se modifica la clase TestEnviroments y se eliminan las clases Hooks y ApiCast dado que generaban conflictos en la implementacion.&#10;- Se crea el archivo serenity.conf para configurar las variables de entorno y caracterisiticas generales del reporte&#10;- Se ha creado la feature consultarUsuarios con un escenario de prueba inicial&#10;- Se han creado la clase stepDefinition, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay&#10;- Se configura el archivo .gitignore para evitar subir al repositorio archivos innecesarios" />
+    <MESSAGE value="feat: Agregar escenario de prueba consultarUsuario&#10;&#10;Se han implementado las clases necesarias para la implementacion del escenario de prueba @ConsultarUsuario.&#10;&#10;Detalles:&#10;- Se ha modificaro la feature consultarUsuarios agregando un escenario de prueba para la consulta de usuario especifico&#10;- Se han modificado la clase stepDefinition, y se ha creado una nueva task  con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay" />
+    <MESSAGE value="feat: Modificar escenario de prueba consultarUsuario&#10;&#10;Se agrega una nueva validacion del escenario de prueba @ConsultarUsuario.&#10;&#10;Detalles:&#10;- Se ha modificado la feature consultarUsuarios agregando una nueva validacion al escenario de prueba para la consulta de usuario especifico&#10;- Se han modificado la clase stepDefinition, y se ha creado una nueva question  con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay" />
+    <MESSAGE value="feat: Agregar escenario de prueba UsuarioNoExiste&#10;&#10;Se agrega una nuevo escenario de prueba @UsuarioNoExiste.&#10;&#10;Detalles:&#10;- Se ha modificado la feature consultarUsuarios agregando un nuevo escenario de prueba para la consulta de usuario que no existe&#10;- Se han modificado la clase stepDefinition, y se ha creado una nueva question  con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay" />
+    <MESSAGE value="feat: Agregar feature crearUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature crearUsuarios y el escenario de prueba @CrearUsuario.&#10;&#10;Detalles:&#10;&#10;- Se modifica el archivo serenity.conf para agregar las url para la creacion de usuarios&#10;- Se ha creado la feature crearUsuarios con un escenario de prueba &#10;- Se han creado la clase stepDefinition, models, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay y el patron builder" />
+    <MESSAGE value="feat: Agregar feature actualizarUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature actualizarUsuarios y el escenario de prueba @ActualizarUsuario.&#10;&#10;Detalles:&#10;&#10;- Se modifica el nombramiento de los paquetes para cumplir con las indicaciones de sonarint&#10;- Se ha creado la feature ActualizarUsuario con un escenario de prueba &#10;- Se han creado la clase stepDefinition, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay y el patron builder" />
+    <MESSAGE value="feat: Modificar feature crearUsuarios&#10;&#10;Se han modificado las clases necesarias para la implementacion de la feature crearUsuarios y se crean dos nuevos escenarios de prueba @UsuarioNoValido y @CrearUsuarioVacio.&#10;&#10;Detalles:&#10;&#10;- Se modifica el archivo serenity.conf para la creacion de usuarios&#10;- Se ha modificado la feature crearUsuarios y se agregan dos escenarios de prueba&#10;- Se ha modificado la clase stepDefinition y task y se han creado dos calses question con toda la logica de implementacion para los escenarios de prueba siguiendo con el patron de screenplay y el patron builder" />
+    <MESSAGE value="feat: Agregar feature eliminarUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature eliminarUsuarios y el escenario de prueba @EliminarUsuario.&#10;&#10;Detalles:&#10;&#10;- Se ha creado la feature eliminarUsuarios con un escenario de prueba&#10;- Se han creado la clase stepDefinition, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay y el patron builder" />
+    <MESSAGE value="Merge: Creando merge desde repositorio local a remoto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge: Creando merge desde repositorio local a remoto" />
   </component>
 </project>
