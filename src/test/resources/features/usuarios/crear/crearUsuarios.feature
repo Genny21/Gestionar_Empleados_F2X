@@ -58,3 +58,17 @@ Scenario Outline: Crear un usuario sin informacion
     Examples:
       | id   |
       | 258  |
+
+
+@AP
+@CrearUsuarioExistente
+@CP-007
+  Scenario Outline: Crear un usuario ya existente
+
+    When  Envia la informacion requerida con <id> para su registro
+    Then Se respondera exitosamente la creacion del usuario
+    And Se mostrara la informacion del usuario creado
+
+    Examples:
+      | id   |
+      | 257

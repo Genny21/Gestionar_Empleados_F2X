@@ -22,7 +22,7 @@ Background: Acceder al servicio principal
 
 @HP
 @EliminarUsuario
-@CP-008
+@CP-009
 Scenario Outline: Eliminar un usuario registrado especifico
 
    When  Realiza la eliminacion del usuario con <id>

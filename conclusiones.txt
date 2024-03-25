@@ -1,0 +1,51 @@
+CONCLUSIONES DEL PROYECTO DE AUTOMATIZACION:
+
+* Una vez ejecutadas las pruebas automatizadas y evidenciando los resultados generados en el reporte de Serenity BDD, se puede concluir que:
+
+* Se ejecutan exitosamente los servicios API relacionados con la consulta, creación actualizacion y eliminacion de usuarios en el portal ReqRes
+	- Consultar
+		- HP: Consultar lista de usuarios registrados
+		- HP: Consultar un usuario registrado especifico
+		- SP: Consultar un usuario no registrado
+	- Crear
+		- HP: Crear un usuario correctamente
+		- SP: Intentar crear un usuario con error
+		- AP: Crear un usuario sin informacion
+		- AP: Crear un usuario ya existente
+	- Actualizar
+	    - HP: Actualizar un usuario registrado especifico
+	- Eliminar
+	    - HP: Eliminar un usuario registrado especifico
+
+* A nivel técnico se concluye que:
+    - Se implementan, ejecutan y analizan los escenarios solicitados
+	- Se realiza la validacion de la documentacion Swagger de la plataforma https://reqres.in/api/
+    - Se ejecutan las API's en Postman para entender el funcionamiento de estas, obteniendo asi el detalle de los servicios consumidos (endpoint, method, headers/body request)
+    - Todos los casos pasan segun las asserciones y/o los comportamientos esperados
+    - Se pueden observar las evidencias a mayor detalle (paso a paso) dentro del reporte de Serenity BDD
+
+* Mejoras (To Do):
+	- Es conveniente ampliar el conjunto de datos de prueba
+    - Se puede mejorar el proyecto para manejar data-driven-test en caso de ser requerido
+    - Es conveniniente tener un enfoque E2E en el comportamiento de las API, para que un registro de cuenta exitoso, se compruebe a traves del login, y un login exitoso, parta de un registro de cuenta nuevo
+
+
+* Hallazgos al realizar pruebas exploratorias con Swagger y Postman:
+
+	- https://reqres.in/api/ es un conjunto de API's muy básicas para práctica de pruebas automatizadas
+	- Se presentan errores al consumir algunas API's
+	- La mayoria de API's no tienen validaciones de formatos
+	- Al consumir la API para crear usuario, siempre esta creando un usuario nuevo, aunque ya exista
+	- El catalogo de APIs evaluado, no cumple con el estandar minimo de validaciones ante excepciones controladas
+
+
+
+CONCLUSIONES DE LA PRUEBA TECNICA:
+
+El ejercicio planteaba una automatizacion API con libertad para elegir la tecnologia y el framework de preferencia, por ende:
+
+ - No hay tecnologia/herramienta mejor que otra, sin embargo, por la experiencia se escoge Rest-Asurred en funcion de Serenity-bdd y aplicando el patron de Screenplay
+ - El ejercicio tuvo algunas dificultades debido a la documentacion de las API's pues estan generaban errores y se tuvo que realizar varias pruebas para poder obtener resultados exitosos
+
+
+
