@@ -1,4 +1,4 @@
-package runners.usuarios.consultarUsuarios;
+package runners.usuarios.crear;
 
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
@@ -9,15 +9,15 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = {"pretty"},
-        features = {"src/test/resources/features/usuarios/consultarUsuarios/consultarUsuarios.feature"},
+        features = {"src/test/resources/features/usuarios/crear/crearUsuarios.feature"},
         glue = {"stepdefinitions"},
-        tags = "@UsuarioNoExiste",
+        tags = "@CrearUsuario",
         snippets = CAMELCASE,
         dryRun = false //Desactive, despues de comprobar la existencia/relacion entre enunciado gherkin y StepDefinition
 )
 
 
-public class ConsultarUsuariosRunner {
+public class CrearUsuariosRunner {
 
 
 }

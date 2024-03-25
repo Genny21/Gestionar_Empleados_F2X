@@ -1,4 +1,4 @@
-package com.gestionar.empleados.f2x.tasks.usuarios.consultarUsuarios;
+package com.gestionar.empleados.f2x.tasks.usuarios.consultar;
 
 import com.gestionar.empleados.f2x.helpers.TestEnvironments;
 import net.serenitybdd.core.steps.Instrumented;

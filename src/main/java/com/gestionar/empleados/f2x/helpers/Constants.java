@@ -12,5 +12,6 @@ public class Constants {
     public static final String MSJ_VALIDACION_CODIGO_BAD = "La respuesta obtenida es la esperada";
     public static final String MSJ_VALIDACION_DATA_EXISTE = "Se ha retornado informacion para el usuario exitosamente";
 
+    public static final String MSJ_ACTUALIZACION = "Se ha actualizado correctamente";
     public static final String HEADER_VALUE_CONTEN_TYPE = "application/json";
 }

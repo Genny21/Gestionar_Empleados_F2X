@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4adce26c-ee14-4ef3-bff8-a613c34007d5" name="Changes" comment="feat: Agregar escenario de prueba UsuarioNoExiste&#10;&#10;Se agrega una nuevo escenario de prueba @UsuarioNoExiste.&#10;&#10;Detalles:&#10;- Se ha modificado la feature consultarUsuarios agregando un nuevo escenario de prueba para la consulta de usuario que no existe&#10;- Se han modificado la clase stepDefinition, y se ha creado una nueva question  con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/models/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarStatusBad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/CrearUsuarios/CrearUsuarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/crearUsuarios/CrearUsuariosRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/crearUsuarios/CrearUsuariosStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/crearUsuarios/crearUsuarios.feature" afterDir="false" />
+    <list default="true" id="4adce26c-ee14-4ef3-bff8-a613c34007d5" name="Changes" comment="feat: Agregar feature crearUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature crearUsuarios y el escenario de prueba @CrearUsuario.&#10;&#10;Detalles:&#10;&#10;- Se modifica el archivo serenity.conf para agregar las url para la creacion de usuarios&#10;- Se ha creado la feature crearUsuarios con un escenario de prueba &#10;- Se han creado la clase stepDefinition, models, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay y el patron builder">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarActualizacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/actualizar/ActualizarUsuarioId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/actualizar/ActualizarUsuariosRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/actualizar/ActualizarUsuariosStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/actualizar/actualizarUsuarios.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/helpers/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/helpers/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/usuarios/consultarUsuarios/consultarUsuarios.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/consultarUsuarios/consultarUsuarios.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/CrearUsuarios/CrearUsuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/crear/CrearUsuarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/consultarUsuarios/ConsultarUsuarioId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/consultar/ConsultarUsuarioId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/consultarUsuarios/ConsultarUsuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/consultar/ConsultarUsuarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/usuarios/consultarUsuarios/ConsultarUsuariosRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/consultar/ConsultarUsuariosRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/usuarios/crearUsuarios/CrearUsuariosRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/crear/CrearUsuariosRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/consultarUsuarios/ConsultarUsuariosStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/consultar/ConsultarUsuariosStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/crearUsuarios/CrearUsuariosStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/crear/CrearUsuariosStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/usuarios/consultarUsuarios/consultarUsuarios.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/consultar/consultarUsuarios.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/usuarios/crearUsuarios/crearUsuarios.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/crear/crearUsuarios.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,47 +65,75 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "C:/Users/USUARIO/Documents/Automatización/Gestionar_Empleados_F2X/src/test/resources/features/usuarios/crearUsuarios",
+    "last_opened_file_path": "C:/Users/USUARIO/Documents/Automatización/Gestionar_Empleados_F2X/src/test/resources/features/usuarios/actualizarUsuarios",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USUARIO\Documents\Automatización\Gestionar_Empleados_F2X\src\test\resources\features\usuarios\actualizarUsuarios" />
       <recent name="C:\Users\USUARIO\Documents\Automatización\Gestionar_Empleados_F2X\src\test\resources\features\usuarios\crearUsuarios" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USUARIO\Documents\Automatización\Gestionar_Empleados_F2X\src\test\resources\features\sesion" />
       <recent name="C:\Users\USUARIO\Documents\Automatización\Gestionar_Empleados_F2X\src\test\resources\features\usuarios\consultarUsuarios" />
       <recent name="C:\Users\USUARIO\Documents\Automatización\Gestionar_Empleados_F2X\src\test\resources" />
       <recent name="C:\Users\USUARIO\Documents\Automatización\Gestionar_Empleados_F2X\src\test\resources\features\usuarios" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gestionar.empleados.f2x.questions" />
+      <recent name="com.gestionar.empleados.f2x.tasks.usuarios.actualizarUsuarios" />
+      <recent name="stepdefinitions.usuarios.actualizarUsuarios" />
+      <recent name="runners.usuarios.actualizarUsuarios" />
       <recent name="com.gestionar.empleados.f2x.tasks.usuarios.CrearUsuarios" />
-      <recent name="stepdefinitions.usuarios.crearUsuarios" />
-      <recent name="runners.usuarios.crearUsuarios" />
-      <recent name="com.gestionar.empleados.f2x.tasks.usuarios.consultarUsuarios" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CrearUsuariosRunner">
-    <configuration name="Scenario: Consultar lista de usuarios registrados" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/usuarios/consultarUsuarios/consultarUsuarios.feature" />
-      <option name="GLUE" value="stepdefinitions.consultarUsuarios net.serenitybdd.cucumber.actors" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Gestionar_Empleados_F2X.test" />
-      <option name="NAME_FILTER" value="^Consultar lista de usuarios registrados$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Consultar lista de usuarios registrados$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Consultar lista de usuarios registrados" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.ActualizarUsuariosRunner (1)">
+    <configuration name="ActualizarUsuariosRunner (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;runners.usuarios.actualizar.ActualizarUsuariosRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ActualizarUsuariosRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;runners.usuarios.actualizarUsuarios.ActualizarUsuariosRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="ConsultarUsuariosRunner (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -169,36 +204,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GestionarUsuariosRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;runners.GestionarUsuariosRunner&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ActualizarUsuariosRunner (1)" />
+        <item itemvalue="Gradle.ActualizarUsuariosRunner" />
         <item itemvalue="Gradle.CrearUsuariosRunner" />
         <item itemvalue="Gradle.ConsultarUsuariosRunner (1)" />
         <item itemvalue="Gradle.ConsultarUsuariosRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Consultar lista de usuarios registrados" />
-        <item itemvalue="Gradle.GestionarUsuariosRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711313539121</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: Agregar feature crearUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature crearUsuarios y el escenario de prueba @CrearUsuario.&#10;&#10;Detalles:&#10;&#10;- Se modifica el archivo serenity.conf para agregar las url para la creacion de usuarios&#10;- Se ha creado la feature crearUsuarios con un escenario de prueba &#10;- Se han creado la clase stepDefinition, models, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay y el patron builder">
+      <created>1711323989724</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711323989724</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +286,7 @@
     <MESSAGE value="feat: Agregar escenario de prueba consultarUsuario&#10;&#10;Se han implementado las clases necesarias para la implementacion del escenario de prueba @ConsultarUsuario.&#10;&#10;Detalles:&#10;- Se ha modificaro la feature consultarUsuarios agregando un escenario de prueba para la consulta de usuario especifico&#10;- Se han modificado la clase stepDefinition, y se ha creado una nueva task  con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay" />
     <MESSAGE value="feat: Modificar escenario de prueba consultarUsuario&#10;&#10;Se agrega una nueva validacion del escenario de prueba @ConsultarUsuario.&#10;&#10;Detalles:&#10;- Se ha modificado la feature consultarUsuarios agregando una nueva validacion al escenario de prueba para la consulta de usuario especifico&#10;- Se han modificado la clase stepDefinition, y se ha creado una nueva question  con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay" />
     <MESSAGE value="feat: Agregar escenario de prueba UsuarioNoExiste&#10;&#10;Se agrega una nuevo escenario de prueba @UsuarioNoExiste.&#10;&#10;Detalles:&#10;- Se ha modificado la feature consultarUsuarios agregando un nuevo escenario de prueba para la consulta de usuario que no existe&#10;- Se han modificado la clase stepDefinition, y se ha creado una nueva question  con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Agregar escenario de prueba UsuarioNoExiste&#10;&#10;Se agrega una nuevo escenario de prueba @UsuarioNoExiste.&#10;&#10;Detalles:&#10;- Se ha modificado la feature consultarUsuarios agregando un nuevo escenario de prueba para la consulta de usuario que no existe&#10;- Se han modificado la clase stepDefinition, y se ha creado una nueva question  con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay" />
+    <MESSAGE value="feat: Agregar feature crearUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature crearUsuarios y el escenario de prueba @CrearUsuario.&#10;&#10;Detalles:&#10;&#10;- Se modifica el archivo serenity.conf para agregar las url para la creacion de usuarios&#10;- Se ha creado la feature crearUsuarios con un escenario de prueba &#10;- Se han creado la clase stepDefinition, models, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay y el patron builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Agregar feature crearUsuarios&#10;&#10;Se han implementado las clases necesarias para la implementacion de la feature crearUsuarios y el escenario de prueba @CrearUsuario.&#10;&#10;Detalles:&#10;&#10;- Se modifica el archivo serenity.conf para agregar las url para la creacion de usuarios&#10;- Se ha creado la feature crearUsuarios con un escenario de prueba &#10;- Se han creado la clase stepDefinition, models, task y question con toda la logica de implementacion para el escenario de prueba siguiendo con el patron de screenplay y el patron builder" />
   </component>
 </project>

@@ -1,10 +1,10 @@
-package stepdefinitions.usuarios.consultarUsuarios;
+package stepdefinitions.usuarios.consultar;
 
 import com.gestionar.empleados.f2x.questions.ValidarInfomacionExiste;
 import com.gestionar.empleados.f2x.questions.ValidarStatusCorrecto;
 import com.gestionar.empleados.f2x.questions.ValidarStatusNoExiste;
-import com.gestionar.empleados.f2x.tasks.usuarios.consultarUsuarios.ConsultarUsuarioId;
-import com.gestionar.empleados.f2x.tasks.usuarios.consultarUsuarios.ConsultarUsuarios;
+import com.gestionar.empleados.f2x.tasks.usuarios.consultar.ConsultarUsuarioId;
+import com.gestionar.empleados.f2x.tasks.usuarios.consultar.ConsultarUsuarios;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

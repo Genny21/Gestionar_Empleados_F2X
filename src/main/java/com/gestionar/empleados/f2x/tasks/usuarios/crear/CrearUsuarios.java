@@ -1,4 +1,4 @@
-package com.gestionar.empleados.f2x.tasks.usuarios.CrearUsuarios;
+package com.gestionar.empleados.f2x.tasks.usuarios.crear;
 
 import com.gestionar.empleados.f2x.helpers.TestEnvironments;
 import com.gestionar.empleados.f2x.models.Usuario;
@@ -6,7 +6,6 @@ import net.serenitybdd.core.steps.Instrumented;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.rest.interactions.Get;
 import net.serenitybdd.screenplay.rest.interactions.Post;
 
 import static com.gestionar.empleados.f2x.helpers.Constants.CREAR_USER;
@@ -33,7 +32,7 @@ public class CrearUsuarios implements Task {
         actor.attemptsTo(
                 Post.to(endpoint)
                         .with(request -> request
-                               // .header("Content-Type", HEADER_VALUE_CONTEN_TYPE)
+                                .header("Content-Type", HEADER_VALUE_CONTEN_TYPE)
                                 .body(usuario))
         );
     }
