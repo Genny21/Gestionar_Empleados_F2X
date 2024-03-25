@@ -22,7 +22,7 @@ Background: Acceder al servicio principal
 
 @HP
 @ActualizarUsuario
-@CP-005
+@CP-007
 Scenario Outline: Actualizar un usuario registrado especifico
 
    When  Realiza la actualizacion del usuario con <id>

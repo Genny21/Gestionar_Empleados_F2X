@@ -11,7 +11,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
         plugin = {"pretty"},
         features = {"src/test/resources/features/usuarios/crear/crearUsuarios.feature"},
         glue = {"stepdefinitions"},
-        tags = "@CrearUsuario",
+        tags = "@Todos",
         snippets = CAMELCASE,
         dryRun = false //Desactive, despues de comprobar la existencia/relacion entre enunciado gherkin y StepDefinition
 )

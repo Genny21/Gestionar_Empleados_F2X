@@ -23,8 +23,38 @@ Background: Acceder al servicio principal
 @HP
 @CrearUsuario
 @CP-004
-Scenario: Crear un usuario correctamente
+Scenario Outline: Crear un usuario correctamente
 
-  When  Envia la informacion requerida para su registro
+  When  Envia la informacion requerida con <id> para su registro
+  Then Se respondera exitosamente la creacion del usuario
+  And Se mostrara la informacion del usuario creado
+
+  Examples:
+    | id   |
+    | 257  |
+
+
+@SP
+@UsuarioNoValido
+@CP-005
+Scenario Outline: Intentar crear un usuario con error
+
+  When  No envia la informacion valida requerida con <id> para su registro
   Then Se respondera con los resultados esperados
 
+  Examples:
+    | id   |
+    | register  |
+
+
+@AP
+@CrearUsuarioVacio
+@CP-006
+Scenario Outline: Crear un usuario sin informacion
+
+    When  No envia la informacion requerida con <id> para su registro
+    Then Se respondera exitosamente la creacion del usuario
+
+    Examples:
+      | id   |
+      | 258  |
