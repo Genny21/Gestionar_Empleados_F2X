@@ -5,43 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4adce26c-ee14-4ef3-bff8-a613c34007d5" name="Changes" comment="Merge: Creando merge desde repositorio local a remoto">
-      <change afterPath="$PROJECT_DIR$/conclusiones.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/helpers/TestEnvironments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/models/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarActualizacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarInfomacionExiste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarStatusBad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarStatusCorrecto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarStatusCorrectoCrear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarStatusCorrectoEliminar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarStatusNoExiste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/questions/ValidarUsuarioCreado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/actualizar/ActualizarUsuarioId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/consultar/ConsultarUsuarioId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/consultar/ConsultarUsuarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/crear/CrearUsuarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/tasks/usuarios/eliminar/EliminarUsuarioId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/GeneralRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/actualizar/ActualizarUsuariosRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/consultar/ConsultarUsuariosRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/crear/CrearUsuariosRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/usuarios/eliminar/EliminarUsuariosRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/actualizar/ActualizarUsuariosStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/consultar/ConsultarUsuariosStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/crear/CrearUsuariosStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/usuarios/eliminar/EliminarUsuariosStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/actualizar/actualizarUsuarios.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/consultar/consultarUsuarios.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/crear/crearUsuarios.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/usuarios/eliminar/eliminarUsuarios.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/helpers/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gestionar/empleados/f2x/helpers/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/actors/ApiCast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/Hook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setup/enviroment/TestEnvironments.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,12 +289,12 @@
       <option name="project" value="LOCAL" />
       <updated>1711335871982</updated>
     </task>
-    <task id="LOCAL-00010" summary="feat: Modificar feature crearUsuarios, agregar conclusiones y Runner General&#10;&#10;Se han modificado las clases necesarias para la implementacion de un nuevo escenario de prueba @CrearUsuarioExistente.&#10;&#10;Detalles:&#10;&#10;- Se ha modificado la feature crearUsuarios y se agrega un nuevo escenario de prueba&#10;- Se agrega el Runner general para poder ejecutar todos los escenarios de prueba&#10;- Se agrega el archivo de conclusiones acerca de la construccion del proyecto">
-      <created>1711339255171</created>
+    <task id="LOCAL-00010" summary="Merge: Creando merge desde repositorio local a remoto">
+      <created>1711341601897</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1711339255171</updated>
+      <updated>1711341601897</updated>
     </task>
     <task id="LOCAL-00011" summary="Delete: Se elimina carpeta no utilizada">
       <created>1711340701312</created>
@@ -339,7 +303,7 @@
       <option name="project" value="LOCAL" />
       <updated>1711340701312</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
