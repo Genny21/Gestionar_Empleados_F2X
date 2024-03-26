@@ -71,4 +71,4 @@ Scenario Outline: Crear un usuario sin informacion
 
     Examples:
       | id   |
-      | 257
+      | 257  |
